@@ -17,6 +17,10 @@ body{
     margin: auto;
 }
 
+.cars .col-md-4{
+    max-width: 320px;
+}
+
 .cars .col-md-4:nth-child(1){
     background: #e28525;
     padding: 30px 30px 30px 30px;
@@ -57,6 +61,7 @@ body{
     border-radius: 30px;
     text-decoration: none;
     text-transform: capitalize;
+    margin-top: 60px;
 }
 
 .cars .col-md-4 a:hover{
@@ -64,4 +69,5 @@ body{
     color: #fff;
     border: 1px solid #fff;
 }
+
 
